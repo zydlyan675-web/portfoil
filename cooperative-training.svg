@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">التدريب التعاوني</title>
+  <desc id="desc">متدربة أمام حاسوب تتعلم مهارة مهنية</desc>
+  <rect width="640" height="360" rx="24" fill="#dce8d9"/>
+  <circle cx="515" cy="78" r="48" fill="#f4eddf"/>
+  <rect x="58" y="65" width="350" height="220" rx="16" fill="#fffdf7" stroke="#1f4d39" stroke-width="8"/>
+  <rect x="84" y="92" width="298" height="166" rx="8" fill="#3f7658"/>
+  <circle cx="232" cy="170" r="42" fill="#f4eddf"/>
+  <path d="M204 221c8-38 48-38 56 0" fill="#1f4d39"/>
+  <rect x="168" y="285" width="130" height="18" rx="9" fill="#1f4d39"/>
+  <rect x="198" y="251" width="70" height="34" fill="#1f4d39"/>
+  <path d="M430 278c30-88 95-120 146-72 38 36 29 88 9 114H430z" fill="#f4eddf"/>
+  <circle cx="520" cy="178" r="48" fill="#2f3a32"/>
+  <circle cx="520" cy="168" r="38" fill="#f4eddf"/>
+  <path d="M488 150c12-35 62-39 76 2-22-10-51-11-76-2z" fill="#1f4d39"/>
+  <path d="M476 220c21 22 70 20 90-4l30 102H446z" fill="#3f7658"/>
+  <path d="M478 246l-76 45" fill="none" stroke="#f4eddf" stroke-width="18" stroke-linecap="round"/>
+</svg>

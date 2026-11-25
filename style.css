@@ -1,0 +1,271 @@
+:root {
+    --green-dark: #1f4d39;
+    --green: #3f7658;
+    --green-light: #dce8d9;
+    --beige: #f4eddf;
+    --beige-dark: #d8c9aa;
+    --white: #fffdf7;
+    --text: #2f3a32;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--beige);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    line-height: 1.8;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 18px 8%;
+    background: var(--green-dark);
+    color: var(--white);
+}
+
+#header h1 {
+    margin: 0;
+    color: var(--white);
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav a {
+    display: block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+#nav a:hover,
+#nav a:focus,
+#nav a.active {
+    background: var(--beige-dark);
+    color: var(--green-dark);
+}
+
+main {
+    width: min(1000px, calc(100% - 32px));
+    margin: 32px auto;
+}
+
+.section-card {
+    margin-bottom: 24px;
+    padding: 28px;
+    border: 1px solid var(--beige-dark);
+    border-radius: 16px;
+    background: var(--white);
+    box-shadow: 0 8px 24px rgba(31, 77, 57, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    padding-right: 12px;
+    border-right: 5px solid var(--green);
+    color: var(--green-dark);
+}
+
+h3 {
+    color: var(--green);
+}
+
+a {
+    color: var(--green);
+    font-weight: 600;
+}
+
+a:hover,
+a:focus {
+    color: var(--green-dark);
+}
+
+.companies {
+    padding-right: 22px;
+}
+
+.companies li::marker {
+    color: var(--green);
+}
+
+.training-links {
+    padding-right: 26px;
+}
+
+.training-links li {
+    margin-bottom: 10px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px auto 0;
+    background: var(--white);
+}
+
+th,
+td {
+    border: 1px solid var(--beige-dark);
+    padding: 12px;
+    text-align: right;
+}
+
+th {
+    background: var(--green);
+    color: var(--white);
+}
+
+tbody tr:nth-child(even) {
+    background: var(--green-light);
+}
+
+#footer {
+    padding: 18px;
+    background: var(--green-dark);
+    color: var(--white);
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    #header {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 16px 20px;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+    main {
+        width: min(100% - 20px, 1000px);
+        margin: 20px auto;
+    }
+
+    .section-card {
+        padding: 20px 16px;
+    }
+}
+
+fieldset {
+    border: 1px solid var(--beige-dark);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+legend {
+    padding: 0 8px;
+    color: var(--green-dark);
+    font-weight: 700;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-top: 12px;
+    color: var(--green-dark);
+    font-weight: 600;
+}
+
+input,
+textarea {
+    margin-top: 6px;
+    border: 1px solid var(--beige-dark);
+    border-radius: 8px;
+    padding: 10px;
+    background: var(--white);
+    color: var(--text);
+    font: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--green-light);
+    border-color: var(--green);
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background: var(--green);
+    color: var(--white);
+    font: inherit;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background: var(--beige-dark);
+    color: var(--green-dark);
+}
+
+.intro-content,
+.contact-banner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+    align-items: center;
+    gap: 24px;
+}
+
+.contact-banner {
+    grid-template-columns: minmax(220px, 360px) minmax(0, 1fr);
+    margin-bottom: 16px;
+}
+
+.section-image {
+    width: 100%;
+    max-height: 280px;
+    border: 1px solid var(--beige-dark);
+    border-radius: 16px;
+    background: var(--green-light);
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .intro-content,
+    .contact-banner {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-banner img {
+        order: -1;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">التواصل المهني</title>
+  <desc id="desc">وسائل التواصل والتخطيط للفرص الوظيفية</desc>
+  <rect width="640" height="360" rx="24" fill="#f4eddf"/>
+  <rect x="45" y="55" width="550" height="250" rx="20" fill="#fffdf7" stroke="#d8c9aa" stroke-width="5"/>
+  <circle cx="150" cy="180" r="76" fill="#dce8d9"/>
+  <path d="M112 183l25 25 54-68" fill="none" stroke="#1f4d39" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="260" y="95" width="270" height="34" rx="17" fill="#3f7658"/>
+  <rect x="260" y="150" width="220" height="22" rx="11" fill="#d8c9aa"/>
+  <rect x="260" y="193" width="255" height="22" rx="11" fill="#d8c9aa"/>
+  <rect x="260" y="236" width="180" height="22" rx="11" fill="#d8c9aa"/>
+  <circle cx="555" cy="63" r="42" fill="#3f7658"/>
+  <path d="M539 64h32M555 48v32" stroke="#fffdf7" stroke-width="8" stroke-linecap="round"/>
+</svg>
